@@ -1,0 +1,396 @@
+[
+  {
+    "id": "1",
+    "nombre": "Body Deportivo Sin Mangas",
+    "slug": "body-deportivo-sin-mangas",
+    "categoria": "Bodys",
+    "precio": 78000,
+    "descripcion": "Body de alto rendimiento con tela de compresión suave que se adapta a cada movimiento. Talla única con buena elongación desde XS hasta una L. Perfecto para yoga, pilates y entrenamientos funcionales.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Coral", "hex": "#E8735A" },
+      { "nombre": "Nude", "hex": "#C9A882" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "2",
+    "nombre": "Body Espalda Cruzada",
+    "slug": "body-espalda-cruzada",
+    "categoria": "Bodys",
+    "precio": 90000,
+    "descripcion": "Body con diseño de espalda cruzada, ideal para resaltar la figura. Talla única con excelente elongación hasta talla L. Tela de microfibra con tecnología anti-humedad.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Vinotinto", "hex": "#722F37" },
+      { "nombre": "Olivo", "hex": "#808000" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+      "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "3",
+    "nombre": "Body Deportivo Halter",
+    "slug": "body-deportivo-halter",
+    "categoria": "Bodys",
+    "precio": 85000,
+    "descripcion": "Body estilo halter con cuello alto y espalda descubierta. Talla única con buena elongación desde XS hasta talla L. Ideal para gym y actividades de alta intensidad.",
+    "variantes": [
+      { "nombre": "Blanco", "hex": "#F5F5F5" },
+      { "nombre": "Rosa palo", "hex": "#E8C4BC" },
+      { "nombre": "Azul marino", "hex": "#1E3A5F" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+      "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "4",
+    "nombre": "Body Yoga Premium",
+    "slug": "body-yoga-premium",
+    "categoria": "Bodys",
+    "precio": 94000,
+    "descripcion": "Body de yoga con tela suave y elástica de 4 vías. Diseño minimalista con escote en V y cintura media. Talla única hasta talla L. Perfecto para yoga y pilates.",
+    "variantes": [
+      { "nombre": "Terracota", "hex": "#C45B3D" },
+      { "nombre": "Verde salvia", "hex": "#8FAF88" },
+      { "nombre": "Negro", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "5",
+    "nombre": "Body Training Manga Corta",
+    "slug": "body-training-manga-corta",
+    "categoria": "Bodys",
+    "precio": 96000,
+    "descripcion": "Body con manga corta y diseño deportivo moderno. Talla única con excelente elongación desde XS hasta L. Tela de alto rendimiento con secado rápido.",
+    "variantes": [
+      { "nombre": "Gris marengo", "hex": "#4A4A4A" },
+      { "nombre": "Rosa intenso", "hex": "#D44D72" },
+      { "nombre": "Blanco", "hex": "#F5F5F5" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "6",
+    "nombre": "Body Deportivo Con Copa",
+    "slug": "body-deportivo-con-copa",
+    "categoria": "Bodys",
+    "precio": 98000,
+    "descripcion": "Body premium con copa integrada de soporte medio. Talla única hasta talla L con buena elongación. Tela de compresión suave, perfecta para actividades de baja e intensidad media.",
+    "variantes": [
+      { "nombre": "Beige nude", "hex": "#D4B896" },
+      { "nombre": "Negro", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "7",
+    "nombre": "Malla Deportiva Corta",
+    "slug": "malla-deportiva-corta",
+    "categoria": "Mallas",
+    "precio": 45000,
+    "descripcion": "Malla deportiva corta tipo ciclista con tela de compresión suave. Talla única S/M con buena elongación. Perfecta para gym, spinning y running.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Gris", "hex": "#9CA3AF" }
+    ],
+    "tallas": ["Talla S/M"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "8",
+    "nombre": "Malla Estampada",
+    "slug": "malla-estampada",
+    "categoria": "Mallas",
+    "precio": 45000,
+    "descripcion": "Malla con estampado vibrante y tela de alto rendimiento. Talla única S/M. Diseño con cintura alta que estiliza y sostiene. Ideal para yoga y pilates.",
+    "variantes": [
+      { "nombre": "Rosa/Negro", "hex": "#F9C6D0" },
+      { "nombre": "Verde/Negro", "hex": "#4ADE80" }
+    ],
+    "tallas": ["Talla S/M"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&q=80",
+      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "9",
+    "nombre": "Malla Lisa Básica",
+    "slug": "malla-lisa-basica",
+    "categoria": "Mallas",
+    "precio": 35000,
+    "descripcion": "Malla básica lisa con tela ultra suave. Talla única S/M. Un básico imprescindible para cualquier actividad deportiva. Versatilidad y comodidad garantizadas.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Marino", "hex": "#1E3A5F" },
+      { "nombre": "Morado", "hex": "#7C3AED" }
+    ],
+    "tallas": ["Talla S/M"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "10",
+    "nombre": "Set Short Deportivo Premium",
+    "slug": "set-short-deportivo-premium",
+    "categoria": "Sets",
+    "precio": 125000,
+    "descripcion": "Set completo (top + short) de alto rendimiento. Talla única con buena elongación hasta talla L. Tela de compresión suave con acabado mate. El outfit perfecto para gym.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Mocha", "hex": "#7A4F35" },
+      { "nombre": "Verde militar", "hex": "#4A5C3B" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "11",
+    "nombre": "Set Short Ribbed",
+    "slug": "set-short-ribbed",
+    "categoria": "Sets",
+    "precio": 120000,
+    "descripcion": "Set short con textura ribbed (acanalada) muy de moda. Talla única hasta talla L. Conjunto top de tiritas + short tiro alto. Ideal para gym y uso casual.",
+    "variantes": [
+      { "nombre": "Beige", "hex": "#C9A882" },
+      { "nombre": "Rosa palo", "hex": "#E8C4BC" },
+      { "nombre": "Blanco", "hex": "#F5F5F5" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80",
+      "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "12",
+    "nombre": "Set Short Básico",
+    "slug": "set-short-basico",
+    "categoria": "Sets",
+    "precio": 110000,
+    "descripcion": "Set deportivo básico (top + short) en tela suave de secado rápido. Talla única con elongación hasta talla L. El básico que no puede faltar en tu armario deportivo.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Gris", "hex": "#9CA3AF" },
+      { "nombre": "Terracota", "hex": "#C45B3D" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "13",
+    "nombre": "Set Short Sin Push",
+    "slug": "set-short-sin-push",
+    "categoria": "Sets",
+    "precio": 98000,
+    "descripcion": "Set deportivo sin push up, para quienes prefieren mayor comodidad y soporte natural. Talla única hasta talla L. Top con copa integrada ligera + short a juego.",
+    "variantes": [
+      { "nombre": "Azul marino", "hex": "#1E3A5F" },
+      { "nombre": "Negro", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+      "https://images.unsplash.com/photo-1475274047050-1d0c0975de51?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "14",
+    "nombre": "Enterizo Corto Deportivo",
+    "slug": "enterizo-corto-deportivo",
+    "categoria": "Enterizos Cortos",
+    "precio": 125000,
+    "descripcion": "Enterizo corto de una pieza con tela de compresión suave. Talla única con buena elongación desde XS hasta talla L. Perfecto para crossfit, gym y actividades deportivas.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Azul marino", "hex": "#1E3A5F" },
+      { "nombre": "Vinotinto", "hex": "#722F37" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "15",
+    "nombre": "Enterizo Corto Espalda Abierta",
+    "slug": "enterizo-corto-espalda-abierta",
+    "categoria": "Enterizos Cortos",
+    "precio": 120000,
+    "descripcion": "Enterizo corto con diseño de espalda abierta y tirantes cruzados. Talla única hasta talla L. Combina estilo y funcionalidad para el gym y actividades al aire libre.",
+    "variantes": [
+      { "nombre": "Terracota", "hex": "#C45B3D" },
+      { "nombre": "Verde salvia", "hex": "#8FAF88" },
+      { "nombre": "Negro", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1468196961569-2b8f8a11f23a?w=800&q=80",
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "16",
+    "nombre": "Enterizo Corto Básico",
+    "slug": "enterizo-corto-basico",
+    "categoria": "Enterizos Cortos",
+    "precio": 105000,
+    "descripcion": "Enterizo corto básico en tela suave y funcional. Talla única desde XS hasta talla L. El básico perfecto para complementar con chaqueta o usar solo en el gym.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Gris", "hex": "#9CA3AF" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "17",
+    "nombre": "Enterizo Largo Premium",
+    "slug": "enterizo-largo-premium",
+    "categoria": "Enterizos Largos",
+    "precio": 140000,
+    "descripcion": "Enterizo largo de una pieza con tela premium de compresión. Talla única con buena elongación desde XS hasta talla L. Diseño sofisticado para gym, yoga y pilates.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Mocha oscuro", "hex": "#5C3D2E" },
+      { "nombre": "Azul petróleo", "hex": "#1E4D5C" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "18",
+    "nombre": "Enterizo Largo Espalda Cruzada",
+    "slug": "enterizo-largo-espalda-cruzada",
+    "categoria": "Enterizos Largos",
+    "precio": 138000,
+    "descripcion": "Enterizo largo con detalle de espalda cruzada y piernas largas. Talla única hasta talla L. Tela de microfibra suave con excelente recuperación elástica.",
+    "variantes": [
+      { "nombre": "Verde militar", "hex": "#4A5C3B" },
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Coral", "hex": "#E8735A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
+      "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "19",
+    "nombre": "Enterizo Largo Clásico",
+    "slug": "enterizo-largo-clasico",
+    "categoria": "Enterizos Largos",
+    "precio": 125000,
+    "descripcion": "Enterizo largo de corte clásico, versátil y cómodo. Talla única desde XS hasta talla L. Perfecto para yoga, natación y actividades de baja intensidad.",
+    "variantes": [
+      { "nombre": "Vinotinto", "hex": "#722F37" },
+      { "nombre": "Azul marino", "hex": "#1E3A5F" },
+      { "nombre": "Negro", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&q=80"
+    ],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "20",
+    "nombre": "Enterizo Largo Deportivo Pro",
+    "slug": "enterizo-largo-deportivo-pro",
+    "categoria": "Enterizos Largos",
+    "precio": 140000,
+    "descripcion": "Enterizo largo de alto rendimiento con tela técnica de compresión graduada. Talla única hasta talla L. Diseño sin costuras para máxima comodidad en entrenamientos intensos.",
+    "variantes": [
+      { "nombre": "Negro/Rosado", "hex": "#D44D72" },
+      { "nombre": "Negro total", "hex": "#1A1A1A" }
+    ],
+    "tallas": ["Talla única (XS-L)"],
+    "imagenes": [
+      "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
+      "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?w=800&q=80"
+    ],
+    "featured": true,
+    "activo": true
+  }
+]
