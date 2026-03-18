@@ -14,11 +14,30 @@ export default function ProductDetail({ producto }: { producto: Producto }) {
   const { addItem } = useCart();
   const [selectedColor, setSelectedColor] = useState(producto.variantes[0]?.nombre || '');
   const isTallaUnica = producto.tallas.length === 1 && (
-    producto.tallas[0].toLowerCase().includes('única') || producto.tallas[0].toLowerCase().includes('unica')
+    producto.tallas[0].toLowerCase().includes('única') ||
+    producto.tallas[0].toLowerCase().includes('unica') ||
+    producto.tallas[0].toLowerCase().includes('unitalla')
   );
   const [selectedTalla, setSelectedTalla] = useState(isTallaUnica ? producto.tallas[0] : '');
   const [mainImage, setMainImage] = useState(0);
+  // Imagen activa: puede ser la de la variante seleccionada o la del carrusel
+  const [colorImage, setColorImage] = useState<string | null>(
+    producto.variantes[0]?.imagen || null
+  );
   const [error, setError] = useState('');
+
+  const displayImage = colorImage || producto.imagenes[mainImage];
+
+  const handleColorChange = (colorName: string) => {
+    setSelectedColor(colorName);
+    const variante = producto.variantes.find(v => v.nombre === colorName);
+    setColorImage(variante?.imagen || null);
+  };
+
+  const handleThumbnailClick = (idx: number) => {
+    setMainImage(idx);
+    setColorImage(null);
+  };
 
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '573001234567';
 
@@ -46,7 +65,7 @@ export default function ProductDetail({ producto }: { producto: Producto }) {
         <div className="space-y-3">
           <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-gray-100">
             <Image
-              src={producto.imagenes[mainImage]}
+              src={displayImage}
               alt={producto.nombre}
               fill
               className="object-cover"
@@ -59,9 +78,9 @@ export default function ProductDetail({ producto }: { producto: Producto }) {
               {producto.imagenes.map((img, idx) => (
                 <button
                   key={idx}
-                  onClick={() => setMainImage(idx)}
+                  onClick={() => handleThumbnailClick(idx)}
                   className={`relative w-20 h-24 rounded-xl overflow-hidden border-2 transition-colors ${
-                    mainImage === idx ? 'border-mocha' : 'border-transparent'
+                    !colorImage && mainImage === idx ? 'border-mocha' : 'border-transparent'
                   }`}
                 >
                   <Image
@@ -97,7 +116,7 @@ export default function ProductDetail({ producto }: { producto: Producto }) {
             <ColorSwatch
               variantes={producto.variantes}
               selected={selectedColor}
-              onChange={setSelectedColor}
+              onChange={handleColorChange}
             />
           </div>
 

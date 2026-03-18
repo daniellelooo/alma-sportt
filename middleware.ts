@@ -3,13 +3,20 @@ import { NextRequest, NextResponse } from 'next/server';
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  if (pathname.startsWith('/admin') && !pathname.startsWith('/admin/login')) {
+  if (
+    (pathname.startsWith('/admin') && !pathname.startsWith('/admin/login')) ||
+    pathname.startsWith('/api/admin')
+  ) {
     const cookie = req.cookies.get('admin_auth');
     const password = process.env.ADMIN_PASSWORD || 'almasportt2025';
 
     if (!cookie || cookie.value !== password) {
       const loginUrl = new URL('/admin/login', req.url);
       loginUrl.searchParams.set('from', pathname);
+      // Para APIs devolver 401 en lugar de redirigir
+      if (pathname.startsWith('/api/')) {
+        return NextResponse.json({ error: 'No autorizado' }, { status: 401 });
+      }
       return NextResponse.redirect(loginUrl);
     }
   }
@@ -18,5 +25,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/admin/:path*'],
+  matcher: ['/admin/:path*', '/api/admin/:path*'],
 };

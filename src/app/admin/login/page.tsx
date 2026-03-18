@@ -36,22 +36,22 @@ function LoginForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4">
-      <div className="bg-gray-900 rounded-2xl p-8 w-full max-w-sm border border-gray-800">
+    <div className="min-h-screen bg-crema flex items-center justify-center px-4">
+      <div className="bg-white rounded-2xl p-8 w-full max-w-sm border border-sand shadow-sm">
         <div className="text-center mb-8">
           <Image
             src="/logosolosimbolo.png"
             alt="Alma Sportt"
-            width={48}
-            height={48}
-            className="mx-auto brightness-0 invert mb-4"
+            width={56}
+            height={56}
+            className="mx-auto mb-4"
           />
-          <h1 className="text-xl font-bold text-white">Panel de Administración</h1>
-          <p className="text-gray-400 text-sm mt-1">Alma Sportt</p>
+          <h1 className="text-xl font-bold text-oscuro">Panel de Administración</h1>
+          <p className="text-gray-500 text-sm mt-1">Alma Sportt</p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <Label htmlFor="password" className="text-gray-300">
+            <Label htmlFor="password" className="text-oscuro font-medium">
               Contraseña
             </Label>
             <Input
@@ -60,11 +60,11 @@ function LoginForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="mt-1 bg-gray-800 border-gray-700 text-white"
+              className="mt-1 bg-white border-sand text-oscuro focus:border-mocha"
               placeholder="••••••••"
             />
           </div>
-          {error && <p className="text-red-400 text-sm">{error}</p>}
+          {error && <p className="text-red-500 text-sm">{error}</p>}
           <Button
             type="submit"
             disabled={loading}

@@ -8,7 +8,7 @@ export default function AdminProductActions({ productoId }: { productoId: string
   const router = useRouter();
 
   const handleDelete = async () => {
-    if (!confirm('¿Seguro que quieres eliminar este producto?')) return;
+    if (!confirm('¿Seguro que quieres eliminar este producto? Esta acción no se puede deshacer.')) return;
     await fetch(`/api/admin/products/${productoId}`, { method: 'DELETE' });
     router.refresh();
   };
@@ -17,17 +17,17 @@ export default function AdminProductActions({ productoId }: { productoId: string
     <div className="flex gap-2">
       <Link
         href={`/admin/productos/${productoId}/editar`}
-        className="p-1.5 text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors"
-        title="Editar"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-mocha bg-mocha/10 hover:bg-mocha/20 rounded-lg transition-colors"
+        title="Editar producto"
       >
-        <Pencil size={15} />
+        <Pencil size={13} /> Editar
       </Link>
       <button
         onClick={handleDelete}
-        className="p-1.5 text-gray-400 hover:text-red-400 hover:bg-red-500/10 rounded transition-colors"
-        title="Eliminar"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-red-600 bg-red-50 hover:bg-red-100 rounded-lg transition-colors"
+        title="Eliminar producto"
       >
-        <Trash2 size={15} />
+        <Trash2 size={13} /> Eliminar
       </button>
     </div>
   );

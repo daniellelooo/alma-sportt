@@ -1,6 +1,7 @@
 export interface Variante {
   nombre: string;
   hex: string;
+  imagen?: string;
 }
 
 export interface Producto {

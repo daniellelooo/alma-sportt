@@ -17,33 +17,33 @@ export default function AdminPage() {
     <div>
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-2xl font-bold text-white">Productos</h1>
-          <p className="text-gray-400 text-sm mt-1">{products.length} productos en total</p>
+          <h1 className="text-2xl font-bold text-oscuro">Mis productos</h1>
+          <p className="text-gray-500 text-sm mt-1">{products.length} productos registrados</p>
         </div>
-        <Button asChild className="bg-mocha hover:bg-mocha/90 text-white gap-2">
+        <Button asChild className="bg-rosado hover:bg-rosado/90 text-white gap-2">
           <Link href="/admin/productos/nuevo">
-            <Plus size={16} /> Nuevo producto
+            <Plus size={16} /> Agregar producto
           </Link>
         </Button>
       </div>
 
-      <div className="bg-gray-900 rounded-2xl border border-gray-800 overflow-hidden">
+      <div className="bg-white rounded-2xl border border-sand overflow-hidden shadow-sm">
         <table className="w-full">
           <thead>
-            <tr className="border-b border-gray-800 text-left text-xs text-gray-400 uppercase tracking-wider">
-              <th className="px-4 py-3">Producto</th>
-              <th className="px-4 py-3 hidden sm:table-cell">Categoría</th>
-              <th className="px-4 py-3 hidden md:table-cell">Precio</th>
-              <th className="px-4 py-3">Estado</th>
-              <th className="px-4 py-3">Acciones</th>
+            <tr className="border-b border-sand text-left text-xs text-gray-500 uppercase tracking-wider bg-crema">
+              <th className="px-5 py-3">Producto</th>
+              <th className="px-5 py-3 hidden sm:table-cell">Categoría</th>
+              <th className="px-5 py-3 hidden md:table-cell">Precio</th>
+              <th className="px-5 py-3">Estado</th>
+              <th className="px-5 py-3">Acciones</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-800">
+          <tbody className="divide-y divide-sand">
             {products.map((p) => (
-              <tr key={p.id} className="hover:bg-gray-800/50 transition-colors">
-                <td className="px-4 py-3">
+              <tr key={p.id} className="hover:bg-crema/50 transition-colors">
+                <td className="px-5 py-4">
                   <div className="flex items-center gap-3">
-                    <div className="relative w-12 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-gray-800">
+                    <div className="relative w-12 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-sand">
                       <Image
                         src={p.imagenes[0]}
                         alt={p.nombre}
@@ -53,31 +53,40 @@ export default function AdminPage() {
                       />
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-white">{p.nombre}</p>
-                      <p className="text-xs text-gray-400">{p.slug}</p>
+                      <p className="text-sm font-medium text-oscuro">{p.nombre}</p>
+                      <p className="text-xs text-gray-400">{p.categoria}</p>
                     </div>
                   </div>
                 </td>
-                <td className="px-4 py-3 hidden sm:table-cell">
-                  <span className="text-sm text-gray-300">{p.categoria}</span>
+                <td className="px-5 py-4 hidden sm:table-cell">
+                  <span className="text-sm text-gray-600">{p.categoria}</span>
                 </td>
-                <td className="px-4 py-3 hidden md:table-cell">
-                  <span className="text-sm text-gray-300">{formatCOP(p.precio)}</span>
+                <td className="px-5 py-4 hidden md:table-cell">
+                  <span className="text-sm font-medium text-mocha">{formatCOP(p.precio)}</span>
                 </td>
-                <td className="px-4 py-3">
+                <td className="px-5 py-4">
                   <Badge
-                    className={p.activo ? 'bg-green-500/20 text-green-400 border-green-500/30' : 'bg-red-500/20 text-red-400 border-red-500/30'}
+                    className={p.activo
+                      ? 'bg-green-50 text-green-700 border-green-200'
+                      : 'bg-red-50 text-red-600 border-red-200'}
                   >
-                    {p.activo ? 'Activo' : 'Inactivo'}
+                    {p.activo ? 'Visible' : 'Oculto'}
                   </Badge>
                 </td>
-                <td className="px-4 py-3">
+                <td className="px-5 py-4">
                   <AdminProductActions productoId={p.id} />
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
+
+        {products.length === 0 && (
+          <div className="text-center py-16 text-gray-400">
+            <p className="text-lg mb-2">No hay productos aún</p>
+            <p className="text-sm">Haz clic en &quot;Agregar producto&quot; para empezar</p>
+          </div>
+        )}
       </div>
     </div>
   );

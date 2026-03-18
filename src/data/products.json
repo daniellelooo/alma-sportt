@@ -1,170 +1,231 @@
 [
   {
     "id": "1",
-    "nombre": "Body Deportivo 01",
-    "slug": "body-deportivo-01",
+    "nombre": "Body Spaghetti Café",
+    "slug": "body-spaghetti-cafe",
     "categoria": "Bodys",
     "precio": 78000,
-    "descripcion": "Body de alto rendimiento con tela de compresión suave que se adapta a cada movimiento. Talla única con buena elongación desde XS hasta una L.",
+    "descripcion": "Body de tirantes finos con logo bordado y argolla lateral ajustable. Tela suave de compresión que se adapta al cuerpo. Talla única con buena elongación desde XS hasta L.",
     "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Coral", "hex": "#E8735A" },
-      { "nombre": "Nude", "hex": "#C9A882" }
+      { "nombre": "Café", "hex": "#5C2D0A", "imagen": "/bodys/body_01.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": ["/bodys/body_01.jpeg"],
     "featured": true,
     "activo": true
   },
   {
     "id": "2",
-    "nombre": "Body Deportivo 02",
-    "slug": "body-deportivo-02",
+    "nombre": "Body Multistrap Crema",
+    "slug": "body-multistrap-crema",
     "categoria": "Bodys",
-    "precio": 80000,
-    "descripcion": "Body con diseño deportivo moderno, ideal para resaltar la figura. Talla única con excelente elongación hasta talla L.",
+    "precio": 82000,
+    "descripcion": "Body con diseño de múltiples tirantes cruzados en la espalda. Cuerpo en crema con tirantes café. Talla única con buena elongación desde XS hasta L.",
     "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Vinotinto", "hex": "#722F37" }
+      { "nombre": "Crema + café", "hex": "#F0EDE6", "imagen": "/bodys/body_02.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": ["/bodys/body_02.jpeg"],
-    "featured": true,
+    "featured": false,
     "activo": true
   },
   {
     "id": "3",
-    "nombre": "Body Deportivo 03",
-    "slug": "body-deportivo-03",
+    "nombre": "Body Halter Espalda Cruzada",
+    "slug": "body-halter-espalda-cruzada",
     "categoria": "Bodys",
-    "precio": 82000,
-    "descripcion": "Body estilo deportivo con espalda descubierta. Talla única con buena elongación desde XS hasta talla L.",
+    "precio": 85000,
+    "descripcion": "Body halter cuello alto con tirantes que se cruzan en la espalda. Cuerpo café con borde crema. Talla única con buena elongación desde XS hasta L.",
     "variantes": [
-      { "nombre": "Blanco", "hex": "#F5F5F5" },
-      { "nombre": "Rosa palo", "hex": "#E8C4BC" }
+      { "nombre": "Café + crema", "hex": "#5C2D0A", "imagen": "/bodys/body_03.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": ["/bodys/body_03.jpeg"],
-    "featured": false,
+    "featured": true,
     "activo": true
   },
   {
     "id": "4",
-    "nombre": "Body Deportivo 04",
-    "slug": "body-deportivo-04",
+    "nombre": "Body Racerback Sólido",
+    "slug": "body-racerback-solido",
     "categoria": "Bodys",
-    "precio": 85000,
-    "descripcion": "Body con tela suave y elástica de 4 vías. Diseño minimalista con cintura media. Talla única hasta talla L.",
+    "precio": 80000,
+    "descripcion": "Body racerback en tela lisa de compresión suave con logo bordado. Sin borde ni detalle, diseño limpio y versátil. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Terracota", "hex": "#C45B3D" },
-      { "nombre": "Verde salvia", "hex": "#8FAF88" },
-      { "nombre": "Negro", "hex": "#1A1A1A" }
+      { "nombre": "Negro", "hex": "#1A1A1A", "imagen": "/bodys/body_04.jpeg" },
+      { "nombre": "Rojo", "hex": "#CC1010", "imagen": "/bodys/body_15.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_04.jpeg"],
-    "featured": false,
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_04.jpeg", "/bodys/body_15.jpeg", "/bodys/body_16.jpeg"],
+    "featured": true,
     "activo": true
   },
   {
     "id": "5",
-    "nombre": "Body Deportivo 05",
-    "slug": "body-deportivo-05",
+    "nombre": "Body Racerback Bicolor",
+    "slug": "body-racerback-bicolor",
     "categoria": "Bodys",
-    "precio": 88000,
-    "descripcion": "Body con manga corta y diseño deportivo moderno. Talla única con excelente elongación desde XS hasta L.",
+    "precio": 83000,
+    "descripcion": "Body racerback con borde contrastante en cuello y espalda. Disponible en 7 combinaciones de color. Logo bordado al frente. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Gris marengo", "hex": "#4A4A4A" },
-      { "nombre": "Rosa intenso", "hex": "#D44D72" }
+      { "nombre": "Crema + Azul", "hex": "#F0EDE6", "imagen": "/bodys/body_05.jpeg" },
+      { "nombre": "Rosa + Blanco", "hex": "#E8A4B8", "imagen": "/bodys/body_06.jpeg" },
+      { "nombre": "Azul + Amarillo", "hex": "#8CC5E3", "imagen": "/bodys/body_07.jpeg" },
+      { "nombre": "Gris + Blanco", "hex": "#8C8C9A", "imagen": "/bodys/body_08.jpeg" },
+      { "nombre": "Café + Blanco", "hex": "#7A4F35", "imagen": "/bodys/body_10.jpeg" },
+      { "nombre": "Azul + Rosa", "hex": "#A8D0E6", "imagen": "/bodys/body_11.jpeg" },
+      { "nombre": "Negro + Blanco", "hex": "#1A1A1A", "imagen": "/bodys/body_12.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": ["/bodys/body_05.jpeg"],
     "featured": true,
     "activo": true
   },
   {
     "id": "6",
-    "nombre": "Body Deportivo 06",
-    "slug": "body-deportivo-06",
+    "nombre": "Body Racerback Tricolor",
+    "slug": "body-racerback-tricolor",
     "categoria": "Bodys",
-    "precio": 90000,
-    "descripcion": "Body premium con copa integrada de soporte medio. Talla única hasta talla L con buena elongación.",
+    "precio": 85000,
+    "descripcion": "Body racerback con borde tricolor (tres colores combinados) en cuello y espalda. Diseño único y llamativo. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Beige nude", "hex": "#D4B896" },
-      { "nombre": "Negro", "hex": "#1A1A1A" }
+      { "nombre": "Azul cielo", "hex": "#87CEEB", "imagen": "/bodys/body_13.jpeg" },
+      { "nombre": "Lila", "hex": "#B99FD4", "imagen": "/bodys/body_14.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_06.jpeg"],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_13.jpeg", "/bodys/body_14.jpeg"],
     "featured": false,
     "activo": true
   },
   {
     "id": "7",
-    "nombre": "Body Deportivo 07",
-    "slug": "body-deportivo-07",
+    "nombre": "Body Manga Corta Backless",
+    "slug": "body-manga-corta-backless",
     "categoria": "Bodys",
-    "precio": 92000,
-    "descripcion": "Body de alto rendimiento con tela técnica de compresión. Diseño sin costuras para máxima comodidad. Talla única XS-L.",
+    "precio": 88000,
+    "descripcion": "Body de manga corta con espalda completamente descubierta. Logo bordado al frente. Tela suave y cómoda. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Mocha", "hex": "#7A4F35" }
+      { "nombre": "Negro", "hex": "#1A1A1A", "imagen": "/bodys/body_17.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_07.jpeg"],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_17.jpeg"],
     "featured": false,
     "activo": true
   },
   {
     "id": "8",
-    "nombre": "Body Deportivo 08",
-    "slug": "body-deportivo-08",
+    "nombre": "Body Manga Corta Butter",
+    "slug": "body-manga-corta-butter",
     "categoria": "Bodys",
-    "precio": 94000,
-    "descripcion": "Body estilo halter con escote en V y espalda descubierta. Talla única con buena elongación hasta talla L.",
+    "precio": 85000,
+    "descripcion": "Body de manga corta en tono amarillo mantequilla, sin detalle de espalda. Tela suave y ligera. Logo bordado al frente. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Azul marino", "hex": "#1E3A5F" },
-      { "nombre": "Coral", "hex": "#E8735A" }
+      { "nombre": "Amarillo mantequilla", "hex": "#F5E472", "imagen": "/bodys/body_18.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_08.jpeg"],
-    "featured": true,
-    "activo": true
-  },
-  {
-    "id": "9",
-    "nombre": "Body Deportivo 09",
-    "slug": "body-deportivo-09",
-    "categoria": "Bodys",
-    "precio": 96000,
-    "descripcion": "Body con tirantes finos y espalda deportiva. Tela de microfibra con tecnología anti-humedad. Talla única XS-L.",
-    "variantes": [
-      { "nombre": "Vinotinto", "hex": "#722F37" },
-      { "nombre": "Verde salvia", "hex": "#8FAF88" }
-    ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_09.jpeg"],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_18.jpeg"],
     "featured": false,
     "activo": true
   },
   {
-    "id": "10",
-    "nombre": "Body Deportivo 10",
-    "slug": "body-deportivo-10",
+    "id": "9",
+    "nombre": "Body Manga Corta Oval",
+    "slug": "body-manga-corta-oval",
     "categoria": "Bodys",
-    "precio": 98000,
-    "descripcion": "Body de diseño exclusivo con tela premium de compresión graduada. Perfecto para gym, yoga y pilates. Talla única XS-L.",
+    "precio": 88000,
+    "descripcion": "Body de manga corta con apertura ovalada en la espalda. Diseño elegante y femenino. Talla única desde XS hasta L.",
     "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Blanco", "hex": "#F5F5F5" },
-      { "nombre": "Rosa palo", "hex": "#E8C4BC" }
+      { "nombre": "Azul cielo", "hex": "#87CEEB", "imagen": "/bodys/body_19.jpeg" },
+      { "nombre": "Blanco", "hex": "#F5F5F5", "imagen": "/bodys/body_20.jpeg" }
     ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": ["/bodys/body_10.jpeg"],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_19.jpeg", "/bodys/body_20.jpeg"],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "10",
+    "nombre": "Body Manga Corta Bicolor",
+    "slug": "body-manga-corta-bicolor",
+    "categoria": "Bodys",
+    "precio": 90000,
+    "descripcion": "Body de manga corta con cuello bicolor contrastante. Espalda descubierta con borde a tono. Logo bordado al frente. Talla única desde XS hasta L.",
+    "variantes": [
+      { "nombre": "Navy + Crema", "hex": "#1E2B4A", "imagen": "/bodys/body_21.jpeg" },
+      { "nombre": "Café + Blanco", "hex": "#7A4F35", "imagen": "/bodys/body_22.jpeg" },
+      { "nombre": "Olivo + Crema", "hex": "#4D4D2E", "imagen": "/bodys/body_23.jpeg" }
+    ],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_21.jpeg"],
     "featured": true,
     "activo": true
   },
   {
     "id": "11",
+    "nombre": "Body Manga Larga Backless",
+    "slug": "body-manga-larga-backless",
+    "categoria": "Bodys",
+    "precio": 92000,
+    "descripcion": "Body de manga larga con espalda abierta. Tela suave de compresión con logo bordado. Ideal para temporadas frías sin perder el estilo. Talla única desde XS hasta L.",
+    "variantes": [
+      { "nombre": "Negro", "hex": "#1A1A1A", "imagen": "/bodys/body_24.jpeg" },
+      { "nombre": "Blanco", "hex": "#F5F5F5", "imagen": "/bodys/body_28.jpeg" }
+    ],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_24.jpeg", "/bodys/body_28.jpeg"],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "12",
+    "nombre": "Body Manga Larga Limón",
+    "slug": "body-manga-larga-limon",
+    "categoria": "Bodys",
+    "precio": 90000,
+    "descripcion": "Body de manga larga en tono amarillo limón suave. Espalda sencilla y cómoda. Logo bordado al frente. Talla única desde XS hasta L.",
+    "variantes": [
+      { "nombre": "Amarillo limón", "hex": "#EEFFA0", "imagen": "/bodys/body_25.jpeg" }
+    ],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_25.jpeg"],
+    "featured": false,
+    "activo": true
+  },
+  {
+    "id": "13",
+    "nombre": "Body Manga Larga Oval",
+    "slug": "body-manga-larga-oval",
+    "categoria": "Bodys",
+    "precio": 92000,
+    "descripcion": "Body de manga larga con apertura ovalada en la espalda. Diseño sofisticado y femenino con logo bordado. Talla única desde XS hasta L.",
+    "variantes": [
+      { "nombre": "Rosa", "hex": "#F0A0B4", "imagen": "/bodys/body_26.jpeg" },
+      { "nombre": "Amarillo", "hex": "#F5E472", "imagen": "/bodys/body_27.jpeg" }
+    ],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_26.jpeg", "/bodys/body_27.jpeg"],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "14",
+    "nombre": "Body Manga Larga Bicolor",
+    "slug": "body-manga-larga-bicolor",
+    "categoria": "Bodys",
+    "precio": 95000,
+    "descripcion": "Body de manga larga con cuello bicolor contrastante. Espalda descubierta con borde a tono. Logo bordado al frente. Talla única desde XS hasta L.",
+    "variantes": [
+      { "nombre": "Rosa + Blanco", "hex": "#F0A0B4", "imagen": "/bodys/body_29.jpeg" },
+      { "nombre": "Olivo + Crema", "hex": "#4D4D2E", "imagen": "/bodys/body_30.jpeg" },
+      { "nombre": "Navy + Crema", "hex": "#1E2B4A", "imagen": "/bodys/body_31.jpeg" }
+    ],
+    "tallas": ["Unitalla"],
+    "imagenes": ["/bodys/body_29.jpeg"],
+    "featured": true,
+    "activo": true
+  },
+  {
+    "id": "15",
     "nombre": "Malla Deportiva Corta",
     "slug": "malla-deportiva-corta",
     "categoria": "Mallas",
@@ -174,16 +235,15 @@
       { "nombre": "Negro", "hex": "#1A1A1A" },
       { "nombre": "Gris", "hex": "#9CA3AF" }
     ],
-    "tallas": ["Talla S/M"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&q=80",
-      "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&q=80"
+      "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=800&q=80"
     ],
     "featured": true,
     "activo": true
   },
   {
-    "id": "12",
+    "id": "16",
     "nombre": "Malla Estampada",
     "slug": "malla-estampada",
     "categoria": "Mallas",
@@ -193,16 +253,15 @@
       { "nombre": "Rosa/Negro", "hex": "#F9C6D0" },
       { "nombre": "Verde/Negro", "hex": "#4ADE80" }
     ],
-    "tallas": ["Talla S/M"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&q=80",
-      "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80"
+      "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&q=80"
     ],
     "featured": false,
     "activo": true
   },
   {
-    "id": "13",
+    "id": "17",
     "nombre": "Malla Lisa Básica",
     "slug": "malla-lisa-basica",
     "categoria": "Mallas",
@@ -213,16 +272,15 @@
       { "nombre": "Marino", "hex": "#1E3A5F" },
       { "nombre": "Morado", "hex": "#7C3AED" }
     ],
-    "tallas": ["Talla S/M"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
-      "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80"
+      "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80"
     ],
     "featured": false,
     "activo": true
   },
   {
-    "id": "14",
+    "id": "18",
     "nombre": "Set Short Deportivo Premium",
     "slug": "set-short-deportivo-premium",
     "categoria": "Sets",
@@ -233,16 +291,15 @@
       { "nombre": "Mocha", "hex": "#7A4F35" },
       { "nombre": "Verde militar", "hex": "#4A5C3B" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
     ],
     "featured": true,
     "activo": true
   },
   {
-    "id": "15",
+    "id": "19",
     "nombre": "Set Short Ribbed",
     "slug": "set-short-ribbed",
     "categoria": "Sets",
@@ -253,16 +310,15 @@
       { "nombre": "Rosa palo", "hex": "#E8C4BC" },
       { "nombre": "Blanco", "hex": "#F5F5F5" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80",
-      "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?w=800&q=80"
+      "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&q=80"
     ],
     "featured": true,
     "activo": true
   },
   {
-    "id": "16",
+    "id": "20",
     "nombre": "Set Short Básico",
     "slug": "set-short-basico",
     "categoria": "Sets",
@@ -273,38 +329,18 @@
       { "nombre": "Gris", "hex": "#9CA3AF" },
       { "nombre": "Terracota", "hex": "#C45B3D" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80"
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&q=80"
     ],
     "featured": false,
     "activo": true
   },
   {
-    "id": "17",
-    "nombre": "Set Short Sin Push",
-    "slug": "set-short-sin-push",
-    "categoria": "Sets",
-    "precio": 98000,
-    "descripcion": "Set deportivo sin push up, para quienes prefieren mayor comodidad y soporte natural. Talla única hasta talla L.",
-    "variantes": [
-      { "nombre": "Azul marino", "hex": "#1E3A5F" },
-      { "nombre": "Negro", "hex": "#1A1A1A" }
-    ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
-      "https://images.unsplash.com/photo-1475274047050-1d0c0975de51?w=800&q=80"
-    ],
-    "featured": false,
-    "activo": true
-  },
-  {
-    "id": "18",
+    "id": "21",
     "nombre": "Enterizo Corto Deportivo",
     "slug": "enterizo-corto-deportivo",
-    "categoria": "Enterizos Cortos",
+    "categoria": "Enterizos",
     "precio": 125000,
     "descripcion": "Enterizo corto de una pieza con tela de compresión suave. Talla única con buena elongación desde XS hasta talla L.",
     "variantes": [
@@ -312,89 +348,27 @@
       { "nombre": "Azul marino", "hex": "#1E3A5F" },
       { "nombre": "Vinotinto", "hex": "#722F37" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
-      "https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&q=80"
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
     ],
     "featured": true,
-    "activo": true
-  },
-  {
-    "id": "19",
-    "nombre": "Enterizo Corto Espalda Abierta",
-    "slug": "enterizo-corto-espalda-abierta",
-    "categoria": "Enterizos Cortos",
-    "precio": 120000,
-    "descripcion": "Enterizo corto con diseño de espalda abierta y tirantes cruzados. Talla única hasta talla L.",
-    "variantes": [
-      { "nombre": "Terracota", "hex": "#C45B3D" },
-      { "nombre": "Verde salvia", "hex": "#8FAF88" },
-      { "nombre": "Negro", "hex": "#1A1A1A" }
-    ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": [
-      "https://images.unsplash.com/photo-1468196961569-2b8f8a11f23a?w=800&q=80",
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80"
-    ],
-    "featured": false,
-    "activo": true
-  },
-  {
-    "id": "20",
-    "nombre": "Enterizo Largo Premium",
-    "slug": "enterizo-largo-premium",
-    "categoria": "Enterizos Largos",
-    "precio": 140000,
-    "descripcion": "Enterizo largo de una pieza con tela premium de compresión. Talla única con buena elongación desde XS hasta talla L.",
-    "variantes": [
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Mocha oscuro", "hex": "#5C3D2E" },
-      { "nombre": "Azul petróleo", "hex": "#1E4D5C" }
-    ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": [
-      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80"
-    ],
-    "featured": true,
-    "activo": true
-  },
-  {
-    "id": "21",
-    "nombre": "Enterizo Largo Espalda Cruzada",
-    "slug": "enterizo-largo-espalda-cruzada",
-    "categoria": "Enterizos Largos",
-    "precio": 138000,
-    "descripcion": "Enterizo largo con detalle de espalda cruzada y piernas largas. Talla única hasta talla L.",
-    "variantes": [
-      { "nombre": "Verde militar", "hex": "#4A5C3B" },
-      { "nombre": "Negro", "hex": "#1A1A1A" },
-      { "nombre": "Coral", "hex": "#E8735A" }
-    ],
-    "tallas": ["Talla única (XS-L)"],
-    "imagenes": [
-      "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80",
-      "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=800&q=80"
-    ],
-    "featured": false,
     "activo": true
   },
   {
     "id": "22",
-    "nombre": "Enterizo Largo Deportivo Pro",
-    "slug": "enterizo-largo-deportivo-pro",
-    "categoria": "Enterizos Largos",
+    "nombre": "Enterizo Largo Premium",
+    "slug": "enterizo-largo-premium",
+    "categoria": "Enterizos",
     "precio": 140000,
-    "descripcion": "Enterizo largo de alto rendimiento con tela técnica de compresión graduada. Diseño sin costuras para máxima comodidad.",
+    "descripcion": "Enterizo largo de una pieza con tela premium de compresión. Talla única con buena elongación desde XS hasta talla L.",
     "variantes": [
-      { "nombre": "Negro/Rosado", "hex": "#D44D72" },
-      { "nombre": "Negro total", "hex": "#1A1A1A" }
+      { "nombre": "Negro", "hex": "#1A1A1A" },
+      { "nombre": "Mocha oscuro", "hex": "#5C3D2E" }
     ],
-    "tallas": ["Talla única (XS-L)"],
+    "tallas": ["Unitalla"],
     "imagenes": [
-      "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
-      "https://images.unsplash.com/photo-1518644961665-ed172691aaa1?w=800&q=80"
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80"
     ],
     "featured": true,
     "activo": true
